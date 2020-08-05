@@ -7,7 +7,7 @@ type Broadcast struct {
 	Data      interface{}
 }
 
-// NewBroadcast will return a new instance of BNewBroadcast
+// NewBroadcast will return a new instance of Broadcast
 func newBroadcast(freq string, data interface{}) *Broadcast {
 	return &Broadcast{
 		Frequency: freq,
